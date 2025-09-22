@@ -1,0 +1,17 @@
+
+/*  mobile */
+@media screen and (min-width: 768px) {
+    
+  .about{
+    padding: 5px;   
+  }
+    
+  #flower{
+    transform: translateX(10%);
+  }
+  
+  #flower-02{
+    transform: scaleX(-1) scaleY(-1) translateY(-150%) translateX(5%);
+  }
+
+}

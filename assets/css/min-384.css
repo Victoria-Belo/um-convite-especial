@@ -1,0 +1,28 @@
+
+/*  mobile */
+@media screen and (min-width: 384px) {
+    
+  .about{
+    padding: 5px;  
+  }
+    
+  #flower, #flower-02{  
+    width: 280px;
+    height: auto;  
+  }
+
+  #flower{   
+    position: absolute;
+    top:-3%;
+    transform: translateX(5%); 
+    left: -20%;         
+  }
+  
+  #flower-02{
+    /* transform: scaleX(-1) scaleY(-1) translateY(-150%) translateX(5%); */
+    position: absolute;
+    bottom: 0;           
+    right: -10%;           
+    transform: scaleX(-1) scaleY(-1); 
+  }
+}

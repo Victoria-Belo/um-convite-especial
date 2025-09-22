@@ -1,0 +1,18 @@
+
+/* Desktop  min-width: 1024px  */
+@media screen and (min-width: 1024px) {
+    
+  .about{
+    padding: 5px;
+   
+  }
+    
+  #flower{
+    transform: translateX(10%);
+  }
+  
+  #flower-02{
+    transform: scaleX(-1) scaleY(-1) translateY(-150%) translateX(5%);
+  }
+
+}
