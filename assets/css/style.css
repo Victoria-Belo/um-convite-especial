@@ -232,10 +232,9 @@ main{
 
 #flower-02{
   position: absolute;
-  transform: scaleX(-1) scaleY(-1); /* translateY(-165%) translateX(15%); */
+  transform: scaleX(-1) scaleY(-1); 
   bottom: 50%;
   right: 30%;  
-
 }
 
 
