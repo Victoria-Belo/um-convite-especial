@@ -6,6 +6,7 @@ window.addEventListener('load', ()=>{
 function carregarEstilo(largura) {
  
     let arquivo = "";
+    let video = document.querySelector("video") ;
 
     if (largura >= 1024) {
         arquivo = "min-1024";
@@ -15,7 +16,11 @@ function carregarEstilo(largura) {
         arquivo = "min-412";
     } else if((largura < 412) && (largura >= 384)){
         arquivo = "min-384";   
-    }else{
+    }else if(largura === 360){
+        video.pause();
+        arquivo = "min-360";
+    }
+    else{
         return;
     }
 

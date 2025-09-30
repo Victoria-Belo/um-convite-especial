@@ -1,0 +1,23 @@
+@media screen and (min-width: 360px){
+  
+  .about{
+    padding: 5px;   
+  }
+    
+  #flower, #flower-02{
+    width: 180px !important;
+  }
+
+  #flower{   
+    position: absolute;    
+    left: 0% !important;      
+    transform: translateX(0%);
+  }
+  
+  #flower-02{
+    position: absolute;    
+    bottom: 0% !important;
+    right: 0% !important;  
+  }    
+
+}
