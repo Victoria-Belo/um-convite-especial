@@ -5,19 +5,18 @@
   }
     
   #flower, #flower-02{
-    width: 180px !important;
+    width: 190px !important;
   }
 
   #flower{   
     position: absolute;    
-    left: 0% !important;      
-    transform: translateX(0%);
+    left: -5% !important;      
+    transform: translateX(5%);
   }
   
   #flower-02{
     position: absolute;    
     bottom: 0% !important;
-    right: 0% !important;  
+    right: -5% !important;  
   }    
-
 }
