@@ -1,10 +1,12 @@
 window.addEventListener('load', ()=>{    
+   
+    loading();
+    
     const largura =  window.innerWidth;
     carregarEstilo(largura);
 });
 
-function carregarEstilo(largura) {
- 
+function carregarEstilo(largura) { 
     let arquivo = "";
     let video = document.querySelector("video") ;
 
@@ -27,7 +29,10 @@ function carregarEstilo(largura) {
     const link = document.createElement("link");
     link.rel = "stylesheet";
     link.href = `assets/css/${arquivo}.css`;
-    document.head.appendChild(link);
+    document.head.appendChild(link);   
+}
 
-   
+function loading(){    
+    document.getElementById("loader").style.display = "none";
+    document.querySelector(".content").style.display = "block";
 }
